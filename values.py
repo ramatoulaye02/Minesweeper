@@ -8,8 +8,8 @@ HEIGHT=int(win.winfo_screenheight()*0.85)
 
 
 
-COLUMNS=5
-ROWS=5
+COLUMNS=15
+ROWS=15
 
 BUTTON_X=7.5/COLUMNS
 BUTTON_Y=4/ROWS

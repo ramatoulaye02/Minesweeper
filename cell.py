@@ -201,7 +201,6 @@ class Cell:
         
         for mine in Cell.mines:
             mine.is_mine=True
-            mine.cell_button.config(bg='blue')
         
         for cell in Cell.cells:
             cell.mines_near=cell.calculate_mines()
